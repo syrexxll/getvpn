@@ -1,0 +1,234 @@
+/* ==========================
+   Общие стили
+========================== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ==========================
+   Header и лого
+========================== */
+header {
+    padding: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+    color: #7b5cff;
+}
+
+/* ==========================
+   Hero section
+========================== */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.hero p {
+    opacity: 0.8;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 15px 40px;
+    background: linear-gradient(90deg, #7b5cff, #00c3ff);
+    border-radius: 35px;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* ==========================
+   Feature boxes
+========================== */
+.feature-boxes {
+    display: flex;
+    flex-direction: column; /* вертикальный список */
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.feature-box {
+    width: 320px;
+    background-color: #0a0a0a;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    font-weight: 900;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    box-shadow: 0 0 35px rgba(255,255,255,0.9);
+    transform: scale(1.05);
+}
+
+.feature-box i {
+    font-size: 28px;
+    color: #7b5cff;
+}
+
+/* ==========================
+   Plans page
+========================== */
+.plans-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.plans-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.vpn-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 900;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    padding-bottom: 5px;
+}
+
+.plan-box {
+    background-color: #0a0a0a;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(255,255,255,0.4);
+    font-weight: 900;
+    font-size: 18px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.plan-box.dark-tunnel {
+    border-color: #7b5cff;
+    box-shadow: 0 0 30px rgba(123,92,255,0.6);
+}
+
+.plan-box.http-custom {
+    border-color: #00c3ff;
+    box-shadow: 0 0 30px rgba(0,195,255,0.6);
+}
+
+.plan-box.avo-vpn {
+    border-color: #00ff7f;
+    box-shadow: 0 0 30px rgba(0,255,127,0.6);
+}
+
+.plan-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 50px rgba(255,255,255,0.9);
+}
+
+.plan-box i {
+    font-size: 24px;
+    color: #7b5cff;
+}
+
+.price {
+    opacity: 0.9;
+}
+
+/* ==========================
+   Purchase steps
+========================== */
+.purchase-steps {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.step-box {
+    background-color: #0a0a0a;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+
+.step-box i {
+    font-size: 20px;
+    color: #7b5cff;
+}
+
+/* ==========================
+   Telegram contact
+========================== */
+.contact-box {
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* ==========================
+   Telegram button стиль
+========================== */
+.telegram-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background-color: #0088cc; /* фирменный синий Telegram */
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0,136,204,0.6);
+    transition: 0.3s;
+}
+
+.telegram-btn i {
+    font-size: 20px;
+}
+
+.telegram-btn:hover {
+    box-shadow: 0 0 40px rgba(0,136,204,0.9);
+    transform: scale(1.05);
+}

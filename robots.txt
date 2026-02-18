@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syrexxll.github.io/my-site/sitemap.xml
